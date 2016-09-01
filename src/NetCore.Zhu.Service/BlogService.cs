@@ -8,7 +8,7 @@ using AutoMapper;
 
 namespace NetCore.Zhu.Service
 {
-    public class BlogService
+    public class BlogService : IBlogService
     {
         private TestDbContext _context;
         public BlogService(TestDbContext context)

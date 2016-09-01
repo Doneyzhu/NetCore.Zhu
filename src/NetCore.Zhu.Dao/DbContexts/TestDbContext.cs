@@ -5,10 +5,17 @@ namespace NetCore.Zhu.Dao.DbContexts
 {
     public class TestDbContext : DbContext
     {
-        public TestDbContext(DbContextOptions<TestDbContext> options)
-            : base(options)
+        //public TestDbContext(DbContextOptions<TestDbContext> options)
+        //    : base(options)
+        //{ }
+
+        public TestDbContext()
+            : base()
         { }
 
+        //public TestDbContext() : base("name=BlogAppConn")
+        //{
+        //}
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.

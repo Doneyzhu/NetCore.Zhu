@@ -1,11 +1,7 @@
-{
+﻿{
   "version": "1.0.0-*",
 
   "dependencies": {
-    "AutoMapper": "5.0.2",
-    "NetCore.Zhu.Dao": "1.0.0-*",
-    "NetCore.Zhu.Models": "1.0.0-*",
-    "NetCore.Zhu.Repository": "1.0.0-*",
     "NETStandard.Library": "1.6.0"
   },
 

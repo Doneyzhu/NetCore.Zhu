@@ -26,6 +26,15 @@ namespace NetCore.Zhu.Repository
             return _dbSet.Where(predicate).ToList();
         }
 
+        public IQueryable<T> GetAllListQueryable(System.Linq.Expressions.Expression<Func<T, bool>> predicate = null)
+        {
+            if (predicate == null)
+            {
+                return _dbSet.AsQueryable();
+            }
+            return _dbSet.Where(predicate);
+        }
+
         public T Get(System.Linq.Expressions.Expression<Func<T, bool>> predicate)
         {
             return _dbSet.SingleOrDefault(predicate);
