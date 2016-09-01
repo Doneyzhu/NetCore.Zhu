@@ -34,7 +34,7 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NetCore.Zhu.Infrastructure"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9A3D999A-3736-4989-8698-7D38B40F0397}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NetCore.SignalR.Server", "NetCore.SignalR.Server\NetCore.SignalR.Server.xproj", "{21F4E3B8-6FBC-40EA-B922-58DFD6A1651E}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NetCore.SignalR.ClientOne", "NetCore.SignalR.Server\NetCore.SignalR.ClientOne.xproj", "{21F4E3B8-6FBC-40EA-B922-58DFD6A1651E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
